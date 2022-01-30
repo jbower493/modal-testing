@@ -1,3 +1,4 @@
+import React from 'react';
 import './reach.scss';
 import { Dialog } from "@reach/dialog";
 

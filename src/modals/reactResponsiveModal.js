@@ -1,3 +1,4 @@
+import React from 'react';
 import './reactResponsiveModal.scss';
 import { Modal } from 'react-responsive-modal';
 

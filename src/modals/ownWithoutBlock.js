@@ -1,3 +1,4 @@
+import React from 'react';
 import './ownWithoutBlock.scss';
 
 const OwnWithoutBlock = () => {
