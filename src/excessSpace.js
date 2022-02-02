@@ -41,7 +41,7 @@ class Modal extends Component {
 
 
 
-        document.body.style.height = '-webkit-fill-available';
+        document.documentElement.style.height = '-webkit-fill-available';
 
         this.setState({
             scrollPosition
