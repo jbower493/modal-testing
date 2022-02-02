@@ -6,24 +6,25 @@
     bottom: 0;
     right: 0;
     overflow-y: auto;
-    background-color: white;
+    background-color: $background--white;
 
     &Modal {
         position: relative;
         margin: 0 auto;
         padding: 80px 100px;
         max-width: 1250px;
+        @include fadeinAnimation;
     }
 
     &Close {
         cursor: pointer;
         position: absolute;
         outline: none;
-        color: black;
+        color: $text--secondary;
         top: 40px;
         right: 40px;
         font-size: 30px;
-        color: black;
+        color: $text--black;
     }
 }
 

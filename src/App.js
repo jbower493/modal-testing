@@ -8,7 +8,6 @@ import ReactResponsiveModal from './modals/reactResponsiveModal';
 import OwnWithBlock from './modals/ownWithBlock';
 import OwnWithoutBlock from './modals/ownWithoutBlock';
 
-import ExcessSpace from './excessSpace';
 
 function App() {
     return (
@@ -28,7 +27,7 @@ function App() {
                     <Route path="/react-modal" element={<div><Background render={(open, onClose) => <ReactModal open={open} onClose={onClose} />} name="React Modal" /></div>} />
                     <Route path="/own-without-block" element={<div><Background render={(open, onClose) => <OwnWithoutBlock open={open} onClose={onClose} />} name="Own Without Block" /></div>} />
                     <Route path="/own-with-block" element={<div><Background render={(open, onClose) => <OwnWithBlock open={open} onClose={onClose} />} name="Own With Block" /></div>} />
-                    <Route path="/excess-space" element={<ExcessSpace />} />
+                    <Route path="/excess-space" element={<div><Background render={(open, onClose) => <OwnWithoutBlock open={open} onClose={onClose} />} name="Excess space" /></div>} />
                 </Routes>
             </BrowserRouter>
         </div>
