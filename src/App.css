@@ -20,3 +20,9 @@ button, a {
     height: 3000px;
     background: linear-gradient(180deg, green, yellow);
 }
+
+/* excess space */
+section {
+    height: 200px;
+    background-color: red;
+}
