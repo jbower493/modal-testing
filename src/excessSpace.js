@@ -155,6 +155,7 @@ class Modal extends Component {
                     aria-modal="true"
                     role="dialog"
                 >
+                    <h1>{window.innerHeight}</h1>
                     {children}
                     {!removeCloseButton && <button className={`OverlayClose`} onClick={onClose}><i className={`icon icon-x`}/></button>}
                 </div>
