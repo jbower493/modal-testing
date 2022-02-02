@@ -41,8 +41,8 @@ class Modal extends Component {
 
 
 
-        //document.documentElement.style.height = `${window.innerHeight}px`;
-        document.body.style.height = `${window.innerHeight}px`;
+        document.documentElement.style.height = `${window.innerHeight}px`;
+        //document.body.style.height = `${window.innerHeight}px`;
 
         this.setState({
             scrollPosition
