@@ -39,6 +39,10 @@ class Modal extends Component {
         // Stop visible scrolling when modal closes
         document.body.style.top = `-${scrollPosition.toString()}px`;
 
+
+
+        document.body.style.height = '-webkit-fill-available';
+
         this.setState({
             scrollPosition
         });
